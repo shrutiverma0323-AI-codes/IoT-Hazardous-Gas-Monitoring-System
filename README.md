@@ -172,7 +172,7 @@ IoT-Hazardous-Gas-Monitoring-System/
 
 ## Demo
 
-🎥 **Demo Video**: [Watch on Google Drive](https://drive.google.com) *(Upload your video and update this link)*
+🎥 **Demo Video**: [Watch on Google Drive](https://drive.google.com/file/d/1Xoe-pe0yLnmV4mO39Oq-q4e0YtaZNokP/view?usp=drive_link)
 
 ## Algorithm
 
