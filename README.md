@@ -7,6 +7,44 @@ An IoT-based safety system that detects hazardous gases (LPG, propane, methane, 
 ![Blynk](https://img.shields.io/badge/App-Blynk-green)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
+---
+
+## Problem Statement
+
+Gas leakage is a major concern in industries, homes, and commercial establishments. Traditional gas detection systems have several limitations:
+
+- **No Remote Monitoring**: Existing systems use only buzzers and LEDs for local alerts, which are ineffective when premises are unoccupied
+- **Delayed Response**: Manual monitoring methods require human presence and lead to slower response times
+- **Limited Accessibility**: During situations like lockdowns or when people are away, local alarms go unnoticed
+- **High Cost**: Industrial-grade monitoring systems are expensive and not affordable for small-scale use
+- **No Real-time Data**: Traditional systems don't provide continuous monitoring or historical data
+
+**Real-world Impact**: Gas leakages (LPG, methane, carbon monoxide) can cause explosions, fires, and health hazards. The Bhopal Gas Tragedy (1984) and numerous household LPG accidents highlight the critical need for effective gas monitoring systems.
+
+---
+
+## Our Solution
+
+This IoT-based system addresses all the above problems by providing:
+
+| Problem | Solution |
+|---------|----------|
+| No remote monitoring | **Blynk App** sends instant push notifications to your smartphone anywhere in the world |
+| Delayed response | **Real-time detection** with MQ2 sensor continuously monitoring gas levels every second |
+| Limited accessibility | **Internet connectivity** via NodeMCU ESP8266 WiFi module enables monitoring from anywhere |
+| High cost | **Low-cost components** (total cost < ₹500) make it affordable for homes and small businesses |
+| No real-time data | **Live dashboard** on Blynk app displays current gas concentration levels (0-1023 ppm) |
+
+### Key Advantages Over Existing Systems
+
+1. **Instant Mobile Alerts**: Get notified on your phone even when you're kilometers away
+2. **Multi-layer Warning**: Audio (buzzer) + Visual (LED) + Mobile notification
+3. **Scalable**: Can be deployed across multiple locations with centralized monitoring
+4. **Easy to Build**: Uses readily available components and open-source code
+5. **Low Power**: NodeMCU operates on 5V DC, can run on power bank for portability
+
+---
+
 ## Overview
 
 Safety plays a major role in today's world, and it is necessary that good safety systems are implemented in places of education, work, and home. This project implements a microcontroller-based toxic gas detecting and alerting system using IoT technology.
@@ -128,17 +166,13 @@ IoT-Hazardous-Gas-Monitoring-System/
 ├── docs/
 │   ├── Project_Report.pdf   # Detailed project report
 │   └── Presentation.pptx    # Project presentation
-├── demo/
-│   └── demo_video.mp4       # Working demonstration
-├── images/
-│   └── circuit_diagram.png  # Circuit schematic
 ├── README.md
 └── LICENSE
 ```
 
 ## Demo
 
-Check out the working demonstration video in the `demo/` folder.
+🎥 **Demo Video**: [Watch on Google Drive](https://drive.google.com) *(Upload your video and update this link)*
 
 ## Algorithm
 
@@ -184,7 +218,7 @@ Set Sensor Limit = 200
 
 ## Authors
 
-- **Shruti Verma** - [GitHub](https://github.com/shrutiverma0323-AIAgent)
+- **Shruti Verma** - [GitHub](https://github.com/shrutiverma0323-AI-codes)
 - **Prajwal Rajput**
 
 ## Acknowledgements
